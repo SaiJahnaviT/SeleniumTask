@@ -22,7 +22,7 @@ namespace SeleniumTasks
         [Test]
         public void TextBox()
         {
-            driver.Navigate().GoToUrl("https://demoqa.com/radio-button");
+            driver.Navigate().GoToUrl("https://demoqa.com/text-box");
             IWebElement full_name = driver.FindElement(By.XPath("//input[@id='userName']"));
             full_name.SendKeys("Jahnavi Tulasi");
             IWebElement Email = driver.FindElement(By.XPath("//input[@id='userEmail']"));
@@ -64,7 +64,7 @@ namespace SeleniumTasks
             driver.Manage().Window.Maximize();
             IWebElement dc=driver.FindElement(By.XPath("//button[@id='doubleClickBtn']"));
             Actions a = new Actions(driver);
-            a.MoveToElement(dc).DoubleClick().Perform();
+            a.MoveToElement(dc).DoubleClick();
             
            //IWebElement ClickMe= driver.FindElement(By.XPath("///html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]/div[3]/button[1]"));
            // ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", ClickMe);
@@ -74,7 +74,7 @@ namespace SeleniumTasks
         [TearDown]
         public void Close()
         {
-            //driver.Close(); 
+            driver.Close(); 
         }
     }
 }

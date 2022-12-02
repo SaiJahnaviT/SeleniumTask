@@ -1,6 +1,8 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +19,7 @@ namespace SeleniumTasks
         {
             driver = new ChromeDriver();
         }
+        #region Forms
         [Test]
         public void Form()
         {
@@ -35,12 +38,16 @@ namespace SeleniumTasks
             SelectElement sm = new SelectElement(driver.FindElement(By.XPath("//select[@class='react-datepicker__month-select']")));
             sm.SelectByText("July");
             driver.FindElement(By.XPath("//div[contains(text(),'29')]")).Click();
-            driver.FindElement(By.XPath("//input[@id='subjectsInput']")).SendKeys("00000");
+            IWebElement s= driver.FindElement(By.XPath("//input[@id='subjectsInput']"));
+            s.SendKeys("maths");
+            Actions a = new Actions(driver);
+            a.SendKeys(Keys.Enter).Build().Perform();
             driver.FindElement(By.XPath("//label[contains(text(),'Reading')]")).Click();
             driver.FindElement(By.XPath("//label[contains(text(),'Music')]")).Click();
             driver.FindElement(By.XPath("//input[@id='uploadPicture']")).SendKeys("C:\\Users\\Jahnavi_Tulasi\\Downloads\\download.png");
 
-
+            driver.Close(); 
         }
+        #endregion 
     }
 }
