@@ -1,4 +1,4 @@
-﻿Feature: Cart
+﻿Feature: Cart Feature
 
 A short summary of the feature
 
@@ -6,7 +6,7 @@ A short summary of the feature
 Scenario: Verify the Functionality of cart
 Given I Started SauceDemo Application
 Then Login Page Displayed
-When I Enter USername 'standard_user' and Password 'secret_sauce'
+When I Enter Username 'standard_user' and Password 'secret_sauce'
 And Click Login Button
 Then I Looged in succesfully and Navigated to inventory page.
 When I Add items to the Cart.

@@ -118,7 +118,7 @@ testRunner.Given("I Started SauceDemo Application", ((string)(null)), ((TechTalk
 testRunner.Then("Login Page Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 10
-testRunner.When(string.Format("I Enter USername \'{0}\' and Password \'secret_sauce\'", username), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.When(string.Format("I Enter Username \'{0}\' and Password \'secret_sauce\'", username), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 11
 testRunner.And("Click Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -164,7 +164,7 @@ testRunner.Given("I Started SauceDemo Application", ((string)(null)), ((TechTalk
 testRunner.Then("Login Page Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 22
-testRunner.When("I Enter USername \'locked_out_user\' and Password \'secret_sauce\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.When("I Enter Username \'locked_out_user\' and Password \'secret_sauce\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 23
 testRunner.And("Click Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

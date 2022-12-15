@@ -35,6 +35,8 @@ namespace BDDSauceDemoTest.StepDefinitions
         {
             foreach(var item in table.Rows)
             {
+                item[0].Should().BeLowerCased();
+                
                 checkoutPage.FillTheDetails(item[0], item[1], item[2]);
             }
         }
@@ -49,7 +51,7 @@ namespace BDDSauceDemoTest.StepDefinitions
         [Then(@"I am Navigated to Final Checkout Page\.")]
         public void ThenIAmNavigatedToFinalCheckoutPage_()
         {
-            Assert.True(driver.Url.Contains("checkout-step-two"));
+            Assert.True(checkoutPage.CheckNavigatedToCheckout());
         }
         [When(@"I Check Checkout Items and price\.")]
         public void WhenICheckCheckoutItemsAndPrice_()
@@ -59,8 +61,9 @@ namespace BDDSauceDemoTest.StepDefinitions
         [When(@"I Check the SubTotal Amount of items\.")]
         public void WhenICheckTheSubTotalAmountOfItems_()
         {
+            checkoutPage.CalculateSubTotal().Should().Equals(checkoutPage.getSubTotal());
             
-            Assert.True(checkoutPage.CalculateSubTotal() == checkoutPage.getSubTotal());
+            //Assert.True(checkoutPage.CalculateSubTotal() == checkoutPage.getSubTotal());
         }
 
         [Then(@"I Click on Finish Button\.")]
@@ -72,7 +75,7 @@ namespace BDDSauceDemoTest.StepDefinitions
         [Then(@"Completed the Checkout Process\.")]
         public void ThenCompletedTheCheckoutProcess_()
         {
-            Assert.True(driver.Url.Contains("checkout-complete"));
+            Assert.True(checkoutPage.CheckNavigatedToCompleteCheckout());
         }
 
 

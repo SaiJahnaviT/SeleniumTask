@@ -16,8 +16,10 @@ namespace SauceDemoCommonLibrary.Base
         public static IWebDriver driver;
         public static utility utility =new utility();
         public static ExtentReports extentReports = null;
+        [ThreadStatic]
         public static ExtentTest test;
         public static WebDriverWait wait;
+        
         
 
 

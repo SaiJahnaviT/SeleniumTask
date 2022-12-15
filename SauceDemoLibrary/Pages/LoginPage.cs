@@ -22,7 +22,6 @@ namespace SauceDemoLibrary.Pages
         {
 
             utility.NaviagateToUrl(System.Configuration.ConfigurationManager.AppSettings["SauceDemoUrl"]);
-            //test.Log(Status.Info, "navigated to Sauce demo");
 
 
         }
@@ -39,9 +38,13 @@ namespace SauceDemoLibrary.Pages
         }
         public void ClickLogin()
         {
-            wait.waitElementIsVisible(LoginBtn);
+           // wait.waitElementIsVisible(LoginBtn);
             utility.ClickElement(LoginBtn);
 
+        }
+        public bool CheckNaviagatedToInventory()
+        {
+            return utility.URLContains("inventory");
         }
         
         public string CheckError()

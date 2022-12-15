@@ -68,7 +68,7 @@ namespace SauceDemoLibrary.Pages
 
         public bool Check_items_added(string item)
         {
-            return Cart_items.CheckHasKey(item);
+            return Cart_items.ContainsKey(item);
             
         }
         

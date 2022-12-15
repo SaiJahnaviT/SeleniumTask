@@ -109,7 +109,7 @@ testRunner.Given("I Started SauceDemo Application", ((string)(null)), ((TechTalk
 testRunner.Then("Login Page Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 9
-testRunner.When("I Enter USername \'standard_user\' and Password \'secret_sauce\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.When("I Enter Username \'standard_user\' and Password \'secret_sauce\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 10
 testRunner.And("Click Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -121,28 +121,30 @@ testRunner.Then("I Looged in succesfully and Navigated to inventory page.", ((st
                             "items"});
                 table2.AddRow(new string[] {
                             "Sauce Labs Backpack"});
+                table2.AddRow(new string[] {
+                            "Sauce Labs Bike Light"});
 #line 12
 testRunner.When("I Add items to the Cart.", ((string)(null)), table2, "When ");
 #line hidden
-#line 15
+#line 16
 testRunner.Then("Item are Added.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 16
+#line 17
 testRunner.When("I Click on Cart Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 17
+#line 18
 testRunner.Then("I am Navigated to Cart Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 18
+#line 19
 testRunner.When("I Check the Cart Items", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 19
+#line 20
 testRunner.Then("I am Able to see the Added Items in the Cart.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 20
+#line 21
 testRunner.When("I Click on Checkout Button.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 21
+#line 22
 testRunner.Then("I am Naviagted to Details Page.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
                 TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
@@ -153,25 +155,25 @@ testRunner.Then("I am Naviagted to Details Page.", ((string)(null)), ((TechTalk.
                             "jahnavi",
                             "tulasi",
                             "505325"});
-#line 22
+#line 23
 testRunner.When("I Fill the Details", ((string)(null)), table3, "When ");
 #line hidden
-#line 25
+#line 26
 testRunner.Then("I Click on Continue Button.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 26
+#line 27
 testRunner.And("I am Navigated to Final Checkout Page.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 27
+#line 28
 testRunner.When("I Check Checkout Items and price.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 28
+#line 29
 testRunner.And("I Check the SubTotal Amount of items.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 29
+#line 30
 testRunner.Then("I Click on Finish Button.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 30
+#line 31
 testRunner.And("Completed the Checkout Process.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }

@@ -7,7 +7,7 @@ A short summary of the feature
 Scenario Outline: Verify the Login Functionality of SauceDemo with valid users
 Given I Started SauceDemo Application
 Then Login Page Displayed
-When I Enter USername '<Username>' and Password 'secret_sauce'
+When I Enter Username '<Username>' and Password 'secret_sauce'
 And Click Login Button
 Then I Looged in succesfully and Navigated to inventory page.
 Examples:
@@ -19,7 +19,7 @@ Examples:
 Scenario: Verify the Login Functionality of SauceDemo with Invalid user
 Given I Started SauceDemo Application
 Then Login Page Displayed
-When I Enter USername 'locked_out_user' and Password 'secret_sauce'
+When I Enter Username 'locked_out_user' and Password 'secret_sauce'
 And Click Login Button
 Then Error Displayed,I am unable to Login
 

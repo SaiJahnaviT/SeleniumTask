@@ -20,6 +20,10 @@ namespace SauceDemoLibrary.Pages
         {
             utility.ClickElement(cart);
         }
+        public bool CheckNavigatedToCart()
+        {
+            return utility.URLContains("cart");
+        }
         public bool Cart_items_Displayed()
         {
             foreach(var item in utility.GetList(cart_List_path))
@@ -36,7 +40,7 @@ namespace SauceDemoLibrary.Pages
             {
                 string[] texts = item.Text.Split('\n');
                 string price = texts[3].Trim();
-                if (InventoryPage.Cart_items.CheckHasValue(price))
+                if (InventoryPage.Cart_items.ContainsValue(price))
                 {
                     return true;
 

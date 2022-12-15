@@ -17,11 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Drivers\" />
-    <Folder Include="Support\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SauceDemoLibrary\SauceDemoLibrary.csproj" />
   </ItemGroup>
 	

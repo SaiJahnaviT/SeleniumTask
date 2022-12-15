@@ -25,7 +25,7 @@ namespace BDDSauceDemoTest.StepDefinitions
         {
             Assert.True(loginPage.checkLoginPage());
         }
-        [When(@"I Enter USername '([^']*)' and Password '([^']*)'")]
+        [When(@"I Enter Username '([^']*)' and Password '([^']*)'")]
         public void WhenIEnterUSernameAndPassword(string username, string password)
         {
             loginPage.Login(username, password);
@@ -38,7 +38,7 @@ namespace BDDSauceDemoTest.StepDefinitions
         [Then(@"I Looged in succesfully and Navigated to inventory page\.")]
         public void ThenILoogedInSuccesfullyAndNAvigatedToInventoryPage_()
         {
-            Assert.True(driver.Url.Contains("inventory"));
+            Assert.True(loginPage.CheckNaviagatedToInventory());
         }
         [Then(@"Error Displayed,I am unable to Login")]
         public void ThenErrorDisplayedIAmUnableToLogin()

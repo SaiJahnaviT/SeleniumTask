@@ -25,7 +25,7 @@ namespace BDDSauceDemoTest.StepDefinitions
         [Then(@"I am Navigated to Cart Page")]
         public void ThenIAmNavigatedToCartPage()
         {
-            Assert.True(driver.Url.Contains("cart"));
+            Assert.True(cartPage.CheckNavigatedToCart());
         }
 
         [When(@"I Check the Cart Items")]

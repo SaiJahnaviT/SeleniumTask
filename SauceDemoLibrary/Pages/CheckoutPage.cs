@@ -33,6 +33,11 @@ namespace SauceDemoLibrary.Pages
 
         }
 
+        public bool CheckNaviagtedToDetailsPage()
+        {
+            return utility.URLContains("checkout-step-one");
+        }
+
         public void FillTheDetails(string FirstName, string LastName, string PostalCode)
         {
             
@@ -44,6 +49,11 @@ namespace SauceDemoLibrary.Pages
         {
             utility.ClickElement(Continue);
 
+        }
+
+        public bool CheckNavigatedToCheckout()
+        {
+            return utility.URLContains("checkout-step-two");
         }
         public bool CheckCheckout()
         {
@@ -74,6 +84,11 @@ namespace SauceDemoLibrary.Pages
         {
             utility.js_scroll(Finishbtn);
             utility.ClickElement(Finishbtn);
+        }
+
+        public bool CheckNavigatedToCompleteCheckout()
+        {
+            return utility.URLContains("checkout-complete");
         }
     }
 }

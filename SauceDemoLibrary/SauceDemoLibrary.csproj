@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="screenshots\**" />
+    <EmbeddedResource Remove="screenshots\**" />
+    <None Remove="screenshots\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
     <PackageReference Include="ExtentReports" Version="4.1.0" />
     <PackageReference Include="Nancy" Version="2.0.0" />
@@ -15,10 +21,6 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="108.0.5359.7100" />
     <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="screenshots\" />
   </ItemGroup>
 
   <ItemGroup>

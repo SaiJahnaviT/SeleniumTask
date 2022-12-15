@@ -110,7 +110,7 @@ testRunner.Given("I Started SauceDemo Application", ((string)(null)), ((TechTalk
 testRunner.Then("Login Page Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 8
-testRunner.When("I Enter USername \'standard_user\' and Password \'secret_sauce\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.When("I Enter Username \'standard_user\' and Password \'secret_sauce\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 9
 testRunner.And("Click Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -122,10 +122,12 @@ testRunner.Then("I Looged in succesfully and Navigated to inventory page.", ((st
                             "items"});
                 table4.AddRow(new string[] {
                             "Sauce Labs Backpack"});
+                table4.AddRow(new string[] {
+                            "Sauce Labs Bike Light"});
 #line 11
 testRunner.When("I Add items to the Cart.", ((string)(null)), table4, "When ");
 #line hidden
-#line 14
+#line 15
 testRunner.Then("Item are Added.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
