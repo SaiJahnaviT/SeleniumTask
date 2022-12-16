@@ -1,57 +1,67 @@
-﻿
-//using SauceDemoLibrary.Extension_methods;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using SauceDemoCommonLibrary.Extension_methods;
 using SauceDemoCommonLibrary.Utility;
 using SauceDemoCommonLibrary.Base;
 using AventStack.ExtentReports;
-using AventStack.ExtentReports.Configuration;
+using System.Configuration;
+
+using System.Xml.Linq;
 
 namespace SauceDemoLibrary.Pages
 {
     public class LoginPage : BasePage
     {
-        
-        By UserName=>By.XPath( "//input[@id='user-name']");
-        By Password =>By.XPath("//input[@id='password']");
-        By LoginBtn =By.XPath( "//input[@id='login-button']");
-        By login_logo = By.ClassName("login_logo");
-        By error = By.XPath("//h3[@data-test='error']");
+        #region Locators
 
-        public void GotoUrl()
+        string UsernameTextbox = "user-name";
+
+        string PasswordTextbox= "password";
+
+        string LoginButton = "login-button";
+
+        string LoginLogo = "login_logo";
+
+        string Error = "//h3[@data-test='error']";
+
+        #endregion
+
+        public void GoToUrl()
         {
-
-            utility.NaviagateToUrl(System.Configuration.ConfigurationManager.AppSettings["SauceDemoUrl"]);
-
-
+            utility.NaviagateToUrl(ConfigurationManager.AppSettings["SauceDemoUrl"]);
         }
+
         public void Login(string userName, string password)
         {
-            utility.Sendkeys(UserName,userName);
-            utility.Sendkeys(Password,password);
-            
-       
+            utility.Sendkeys(By.Id($"{UsernameTextbox}"),userName);
+            utility.Sendkeys(By.Id($"{PasswordTextbox}"),password);
         }
-        public bool checkLoginPage()
+
+        public bool CheckLoginPage()
         {
-            return utility.IsDisplayed(login_logo);
+            step.Log(Status.Info, "Naviagted to SauceDemo Login");
+            return utility.IsDisplayed(utility.GetInputByDivClass(LoginLogo));
         }
+
         public void ClickLogin()
         {
            // wait.waitElementIsVisible(LoginBtn);
-            utility.ClickElement(LoginBtn);
-
+            utility.ClickElement(By.Id($"{LoginButton}"));
+            step.Log(Status.Info, "Login Button Clicked");
         }
+
         public bool CheckNaviagatedToInventory()
         {
-            return utility.URLContains("inventory");
+            return utility.URLContains("inventory");  
         }
         
         public string CheckError()
         {
-            if (utility.IsDisplayed(error))
+            if (utility.IsDisplayed(By.XPath($"{Error}")))
             {
-                return utility.gettext(error);
+                
+                string ErrorText= utility.GetText(By.XPath($"{Error}"));
+                step.Log(Status.Info, ErrorText);
+                return ErrorText;
             }
             else
             {
@@ -59,7 +69,6 @@ namespace SauceDemoLibrary.Pages
             }
 
         }
-
 
     }
 }

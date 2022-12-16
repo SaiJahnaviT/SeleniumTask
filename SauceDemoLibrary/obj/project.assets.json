@@ -9874,9 +9874,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\SauceDemoLibrary.csproj",
-      "projectName": "SauceDemoLibrary",
-      "projectPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\SauceDemoLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\BDDSauceDemoLibrary.csproj",
+      "projectName": "BDDSauceDemoLibrary",
+      "projectPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\BDDSauceDemoLibrary.csproj",
       "packagesPath": "C:\\Users\\Jahnavi_Tulasi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\obj\\",
       "projectStyle": "PackageReference",

@@ -17,10 +17,10 @@ namespace SauceDemoCommonLibrary.Base
         public static utility utility =new utility();
         public static ExtentReports extentReports = null;
         [ThreadStatic]
-        public static ExtentTest test;
+        public static ExtentTest test, scenario, step;
         public static WebDriverWait wait;
-        
-        
+
+
 
 
 

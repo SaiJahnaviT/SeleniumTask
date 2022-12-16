@@ -8,7 +8,7 @@ Given I Started SauceDemo Application
 Then Login Page Displayed
 When I Enter Username 'standard_user' and Password 'secret_sauce'
 And Click Login Button
-Then I Looged in succesfully and Navigated to inventory page.
+Then I Logged in succesfully and Navigated to inventory page.
 When I Add items to the Cart.
 | items                 |
 | Sauce Labs Backpack   |

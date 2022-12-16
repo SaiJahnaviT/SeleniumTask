@@ -17,33 +17,26 @@ namespace SauceDemoLibrary.Pages
     {
         #region Locators
 
-        By inventory_List => By.XPath("//div[@class='inventory_item']");
-        
-        
+        string InventoryItemsListPath = "inventory_item";
 
         #endregion
 
         Dictionary<string, string[]> All_items = new Dictionary<string, string[]>();
+
         public static Dictionary<string, string> Cart_items= new Dictionary<string, string>();
-        public InventoryPage()
+
+        public  void AddAllItems()
         {
-            foreach (var i in utility.GetList(inventory_List))
+            foreach (var element in utility.GetList(utility.GetInputByDivClass(InventoryItemsListPath)))
             {
 
-                string[] texts = i.Text.Split("\n");
-                string price = texts[2].Trim();
-                string addtocart = texts[3].ToLower() + " " + texts[0].ToLower().Trim();
-                addtocart = addtocart.Replace(" ", "-");
-                string remove = "remove " + texts[0].ToLower().Trim();
-                remove= remove.Replace(" ", "-");
-                string[] array = { price, addtocart,remove };
-                All_items[texts[0].Trim()] = array;
+                string[] texts = utility.GetAllText(element);
+                All_items[utility.GetItemName(texts)] = utility.GetItemValues(texts);
             }
-
         }
+
         public void AddToCart(string name)
         {
-            Console.WriteLine(name);
             foreach (var item in All_items)
             {
                 
@@ -52,7 +45,7 @@ namespace SauceDemoLibrary.Pages
                     try
                     {
                         driver.FindElement(By.Id(item.Value[1])).Click();
-                        // test.Log(Status.Info, item.Key + " is added to cart");
+                        step.Log(Status.Info, item.Key + " is added to cart");
     
                         Cart_items[name] = item.Value[0];
                     }
@@ -66,14 +59,11 @@ namespace SauceDemoLibrary.Pages
             }
         }
 
-        public bool Check_items_added(string item)
+        public bool CheckItemsAdded(string item)
         {
             return Cart_items.ContainsKey(item);
             
         }
-        
-        
 
-        
     }
 }

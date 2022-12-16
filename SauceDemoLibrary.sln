@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SauceDemoLibrary", "SauceDemoLibrary\SauceDemoLibrary.csproj", "{31EA59E6-E6C1-430D-B35E-4705F4FAB2AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDDSauceDemoLibrary", "SauceDemoLibrary\BDDSauceDemoLibrary.csproj", "{31EA59E6-E6C1-430D-B35E-4705F4FAB2AF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SauceDemoCommonLibrary", "SauceDemoCommonLibrary\SauceDemoCommonLibrary.csproj", "{B9F39FB1-F02B-42FC-8220-C10DA5ABC015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDDSauceDemoTest", "BDDSauceDemoTest\BDDSauceDemoTest.csproj", "{A44B0869-B0D3-4D1F-B552-5B7D71408708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDDSauceDemoTest", "BDDSauceDemoTest\BDDSauceDemoTest.csproj", "{A44B0869-B0D3-4D1F-B552-5B7D71408708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

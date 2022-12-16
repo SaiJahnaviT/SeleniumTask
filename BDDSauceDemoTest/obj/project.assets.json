@@ -3919,23 +3919,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "SauceDemoCommonLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "ExtentReports": "4.1.0",
-          "Selenium.Support": "4.7.0",
-          "Selenium.WebDriver": "4.7.0",
-          "SeleniumExtras.WaitHelpers": "1.0.2"
-        },
-        "compile": {
-          "bin/placeholder/SauceDemoCommonLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SauceDemoCommonLibrary.dll": {}
-        }
-      },
-      "SauceDemoLibrary/1.0.0": {
+      "BDDSauceDemoLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -3950,10 +3934,26 @@
           "System.Configuration.ConfigurationManager": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/SauceDemoLibrary.dll": {}
+          "bin/placeholder/BDDSauceDemoLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SauceDemoLibrary.dll": {}
+          "bin/placeholder/BDDSauceDemoLibrary.dll": {}
+        }
+      },
+      "SauceDemoCommonLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ExtentReports": "4.1.0",
+          "Selenium.Support": "4.7.0",
+          "Selenium.WebDriver": "4.7.0",
+          "SeleniumExtras.WaitHelpers": "1.0.2"
+        },
+        "compile": {
+          "bin/placeholder/SauceDemoCommonLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SauceDemoCommonLibrary.dll": {}
         }
       }
     }
@@ -11254,24 +11254,24 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "BDDSauceDemoLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SauceDemoLibrary/BDDSauceDemoLibrary.csproj",
+      "msbuildProject": "../SauceDemoLibrary/BDDSauceDemoLibrary.csproj"
+    },
     "SauceDemoCommonLibrary/1.0.0": {
       "type": "project",
       "path": "../SauceDemoCommonLibrary/SauceDemoCommonLibrary.csproj",
       "msbuildProject": "../SauceDemoCommonLibrary/SauceDemoCommonLibrary.csproj"
-    },
-    "SauceDemoLibrary/1.0.0": {
-      "type": "project",
-      "path": "../SauceDemoLibrary/SauceDemoLibrary.csproj",
-      "msbuildProject": "../SauceDemoLibrary/SauceDemoLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BDDSauceDemoLibrary >= 1.0.0",
       "ExtentReports >= 4.1.0",
       "FluentAssertions >= 6.2.0",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
       "NUnit3TestAdapter >= 4.1.0",
-      "SauceDemoLibrary >= 1.0.0",
       "SpecFlow.NUnit >= 3.9.40",
       "SpecFlow.Plus.LivingDocPlugin >= 3.9.57",
       "nunit >= 3.13.2"
@@ -11305,8 +11305,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\SauceDemoLibrary.csproj": {
-              "projectPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\SauceDemoLibrary.csproj"
+            "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\BDDSauceDemoLibrary.csproj": {
+              "projectPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\BDDSauceDemoLibrary\\SauceDemoLibrary\\BDDSauceDemoLibrary.csproj"
             }
           }
         }

@@ -183,8 +183,6 @@ C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\De
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\SauceDemoCommonLibrary.dll
-C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\SauceDemoLibrary.dll
-C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\SauceDemoLibrary.pdb
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\SauceDemoCommonLibrary.pdb
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\obj\Debug\net6.0\BDDSauceDemoTest.csproj.AssemblyReference.cache
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\obj\Debug\net6.0\BDDSauceDemoTest.GeneratedMSBuildEditorConfig.editorconfig
@@ -197,4 +195,6 @@ C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\obj\De
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\obj\Debug\net6.0\BDDSauceDemoTest.pdb
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\obj\Debug\net6.0\BDDSauceDemoTest.genruntimeconfig.cache
 C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\obj\Debug\net6.0\ref\BDDSauceDemoTest.dll
-C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\SauceDemoLibrary.dll.config
+C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\BDDSauceDemoLibrary.dll
+C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\BDDSauceDemoLibrary.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\BDDSauceDemoLibrary\BDDSauceDemoTest\bin\Debug\net6.0\BDDSauceDemoLibrary.dll.config

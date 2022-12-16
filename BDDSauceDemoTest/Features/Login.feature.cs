@@ -124,7 +124,7 @@ testRunner.When(string.Format("I Enter Username \'{0}\' and Password \'secret_sa
 testRunner.And("Click Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 12
-testRunner.Then("I Looged in succesfully and Navigated to inventory page.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("I Logged in succesfully and Navigated to inventory page.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

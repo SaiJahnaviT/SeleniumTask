@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SauceDemoCommonLibrary.Base;
+using AventStack.ExtentReports;
 
 namespace SauceDemoLibrary.Pages
 {
@@ -15,75 +16,84 @@ namespace SauceDemoLibrary.Pages
     {
 
         #region Locators
-        By checkoutbtn => By.Id("checkout");
-        By Checkout_List => By.XPath("");
-        By firstname => By.Id("first-name");
-        By lastname => By.Id("last-name");
-        By Postalcode => By.Id("postal-code");
-        By Continue => By.Id("continue");
-        By SubTotal => By.ClassName("summary_subtotal_label");
-        By Finishbtn => By.Id("finish");
 
+        string CheckoutButton = "checkout";
+
+        string FirstNameTextbox = "first-name";
+
+        string LastNameTextbox = "last-name";
+
+        string PostalCodeTextbox = "postal-code";
+
+        string ContinueButton = "continue";
+
+        string SubTotalValue = "summary_subtotal_label";
+
+        string FinishButton = "finish";
 
         #endregion
 
         public void ClickCheckoutBtn()
         {
-            utility.ClickElement(checkoutbtn);
-
+            utility.ClickElement(By.Id($"{CheckoutButton}"));
+            step.Log(Status.Info, "Checkout Button Clicked");
         }
 
         public bool CheckNaviagtedToDetailsPage()
         {
             return utility.URLContains("checkout-step-one");
+
         }
 
         public void FillTheDetails(string FirstName, string LastName, string PostalCode)
         {
-            
-            utility.Sendkeys(firstname, FirstName);
-            utility.Sendkeys(lastname, LastName);
-            utility.Sendkeys(Postalcode, PostalCode);
+            utility.Sendkeys(By.Id($"{FirstNameTextbox}"), FirstName);
+            utility.Sendkeys(By.Id($"{LastNameTextbox}"), LastName);
+            utility.Sendkeys(By.Id($"{PostalCodeTextbox}"), PostalCode);
+            step.Log(Status.Info, "Details Filled");
         }
+
         public void ClickContinue()
         {
-            utility.ClickElement(Continue);
-
+            utility.ClickElement(By.Id($"{ContinueButton}"));
+            step.Log(Status.Info, "Continue Button Clicked");
         }
 
         public bool CheckNavigatedToCheckout()
         {
             return utility.URLContains("checkout-step-two");
         }
-        public bool CheckCheckout()
+
+        public bool CheckCheckoutItems()
         {
-            return checkcartitems();
+            return CheckCartItems();
         }
 
         public double CalculateSubTotal()
         {
-            int count = 0;
             double total = 0;
             foreach (var key in InventoryPage.Cart_items.Keys)
             {
-                count++;
                 total += double.Parse(InventoryPage.Cart_items[key].Replace("$", ""));
-
             }
+            step.Log(Status.Info, "Calculated Subtotal is "+total);
             return total;
+
         }
 
-        public double getSubTotal()
+        public double GetSubTotal()
         {
-            utility.js_scroll(SubTotal);
-            string t = utility.gettext(SubTotal);
-            double price = double.Parse(t.Remove(0, 13));
-            return price;
+            utility.JavaScriptScroll(By.ClassName($"{SubTotalValue}"));
+            double subtotal = double.Parse(utility.GetText(By.ClassName($"{SubTotalValue}")).Remove(0, 13));
+            step.Log(Status.Info, "SubTotal in Checkout Page is " + subtotal);
+            return subtotal;
         }
+
         public void ClickFinishBtn()
         {
-            utility.js_scroll(Finishbtn);
-            utility.ClickElement(Finishbtn);
+            utility.JavaScriptScroll(By.Id($"{FinishButton}"));
+            utility.ClickElement(By.Id($"{FinishButton}"));
+            step.Log(Status.Info, "Finish Button Clicked");
         }
 
         public bool CheckNavigatedToCompleteCheckout()

@@ -8,14 +8,7 @@ namespace BDDSauceDemoTest.StepDefinitions
     [Binding]
     public sealed class CheckoutStepDefinitions : BaseTest
     {
-        private readonly ISpecFlowOutputHelper _specFlowOutputHelper;
-        private readonly ScenarioContext _scenariosContext;
 
-        public CheckoutStepDefinitions(ISpecFlowOutputHelper specFlowOutputHelper, ScenarioContext scenariosContext)
-        {
-            _specFlowOutputHelper = specFlowOutputHelper;
-            _scenariosContext = scenariosContext;
-        }
         CheckoutPage checkoutPage= new CheckoutPage();
 
         [When(@"I Click on Checkout Button\.")]
@@ -41,7 +34,6 @@ namespace BDDSauceDemoTest.StepDefinitions
             }
         }
 
-
         [Then(@"I Click on Continue Button\.")]
         public void ThenIClickOnContinueButton_()
         {
@@ -53,15 +45,17 @@ namespace BDDSauceDemoTest.StepDefinitions
         {
             Assert.True(checkoutPage.CheckNavigatedToCheckout());
         }
+
         [When(@"I Check Checkout Items and price\.")]
         public void WhenICheckCheckoutItemsAndPrice_()
         {
-            checkoutPage.CheckCheckout();
+            checkoutPage.CheckCheckoutItems();
         }
+
         [When(@"I Check the SubTotal Amount of items\.")]
         public void WhenICheckTheSubTotalAmountOfItems_()
         {
-            checkoutPage.CalculateSubTotal().Should().Equals(checkoutPage.getSubTotal());
+            checkoutPage.CalculateSubTotal().Should().Equals(checkoutPage.GetSubTotal());
             
             //Assert.True(checkoutPage.CalculateSubTotal() == checkoutPage.getSubTotal());
         }
@@ -77,9 +71,6 @@ namespace BDDSauceDemoTest.StepDefinitions
         {
             Assert.True(checkoutPage.CheckNavigatedToCompleteCheckout());
         }
-
-
-
 
     }
 }

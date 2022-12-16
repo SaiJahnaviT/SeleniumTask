@@ -9,7 +9,7 @@ Given I Started SauceDemo Application
 Then Login Page Displayed
 When I Enter Username '<Username>' and Password 'secret_sauce'
 And Click Login Button
-Then I Looged in succesfully and Navigated to inventory page.
+Then I Logged in succesfully and Navigated to inventory page.
 Examples:
 			| Username                |
 			| standard_user           |
