@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrangeHRMClassLibrary", "OrangeHRMClassLibrary\OrangeHRMClassLibrary.csproj", "{9E60C375-5C64-4859-957D-552A395AC21A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrangeHRMTest", "OrangeHRMTest\OrangeHRMTest.csproj", "{058DA06F-60A6-4762-8850-D75E4A22507C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrangeHRMCommonLibrary", "OrangeHRMCommonLibrary\OrangeHRMCommonLibrary.csproj", "{2CE0BC4E-63C0-423B-BA3B-D0DAB0C709E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E60C375-5C64-4859-957D-552A395AC21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E60C375-5C64-4859-957D-552A395AC21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E60C375-5C64-4859-957D-552A395AC21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E60C375-5C64-4859-957D-552A395AC21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058DA06F-60A6-4762-8850-D75E4A22507C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058DA06F-60A6-4762-8850-D75E4A22507C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058DA06F-60A6-4762-8850-D75E4A22507C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058DA06F-60A6-4762-8850-D75E4A22507C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE0BC4E-63C0-423B-BA3B-D0DAB0C709E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE0BC4E-63C0-423B-BA3B-D0DAB0C709E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE0BC4E-63C0-423B-BA3B-D0DAB0C709E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE0BC4E-63C0-423B-BA3B-D0DAB0C709E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {989DF3AA-5EE6-4D3D-9B0A-1227DC110944}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\bin\Debug\net6.0\OrangeHRMCommonLibrary.deps.json
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\bin\Debug\net6.0\OrangeHRMCommonLibrary.dll
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\bin\Debug\net6.0\OrangeHRMCommonLibrary.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\OrangeHRMCommonLibrary.csproj.AssemblyReference.cache
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\OrangeHRMCommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\OrangeHRMCommonLibrary.AssemblyInfoInputs.cache
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\OrangeHRMCommonLibrary.AssemblyInfo.cs
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\OrangeHRMCommonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\OrangeHRMCommonLibrary.dll
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\refint\OrangeHRMCommonLibrary.dll
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\OrangeHRMCommonLibrary.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMCommonLibrary\obj\Debug\net6.0\ref\OrangeHRMCommonLibrary.dll
