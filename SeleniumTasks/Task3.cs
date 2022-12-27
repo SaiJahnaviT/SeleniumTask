@@ -7,21 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.DevTools.V105.DOMDebugger;
+using SeleniumTasks.Driver;
 
 namespace SeleniumTasks
 {
-    internal class Task3
+    internal class Task3:Driverinit
     {
-        IWebDriver driver;
-        [SetUp]
-        public void SetUp()
-        {
-            driver = new ChromeDriver();
-        }
+        
         [Test]
         public void task_3()
         {
-            driver.Navigate().GoToUrl("https://www.google.com/");
+            driver.Navigate().GoToUrl("https://www.amazon.com");
             String title = driver.Title;
             int title_length = driver.Title.Length;
             Console.WriteLine(title);
@@ -34,11 +30,6 @@ namespace SeleniumTasks
             //Console.WriteLine(sourcecode);
             int sourcecode_length = driver.PageSource.Length;
             Console.WriteLine(sourcecode_length);
-        }
-        [TearDown]
-        public void Close()
-        {
-            driver.Close();
         }
     }
 }

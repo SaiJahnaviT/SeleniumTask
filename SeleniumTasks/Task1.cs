@@ -6,8 +6,8 @@ using OpenQA.Selenium.Firefox;
 namespace SeleniumTasks
 {
     public class Task1
-    { 
-
+    {
+        #region Chrome
         [Test]
         public void Chrome()
         {
@@ -28,6 +28,9 @@ namespace SeleniumTasks
 
             Assert.Pass();
         }
+        #endregion
+
+        #region Firefox
         [Test]
         public void Firefox()
         {
@@ -42,6 +45,9 @@ namespace SeleniumTasks
             Searchbutton.Click();
             driver2.Close();
         }
+        #endregion
+
+        #region
         [Test]
         public void Edge()
         {
@@ -53,6 +59,7 @@ namespace SeleniumTasks
             driver3.Close();
 
         }
+        #endregion
 
     }
 }

@@ -3,6 +3,8 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
+using SeleniumTasks.Driver;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,14 +13,9 @@ using System.Threading.Tasks;
 
 namespace SeleniumTasks
 {
-    internal class Forms
+    internal class Forms : Driverinit
     {
-        IWebDriver driver;
-        [SetUp]
-        public void SetUp()
-        {
-            driver = new ChromeDriver();
-        }
+        
         #region Forms
         [Test]
         public void Form()

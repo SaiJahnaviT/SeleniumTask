@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "o8ZRfoG12S/TBQ33GgXLzpIsGqpL/4fqhg8SbrUEU8Gc66Cl7mwrLs0YnFTDCexzq7rqYDAEOU9UP/7xRJ/+tA==",
+  "dgSpecHash": "QdJAWNrsDELstVT7fL5xuupCIj9wFE21rTL1CCHIRmBNyUxWWUlm68FlGwpTzjUILvQ6orukLqb6B3kyY7wC8g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\SeleniumTasks\\SeleniumTasks\\SeleniumTasks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jahnavi_Tulasi\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Jahnavi_Tulasi\\.nuget\\packages\\dotnetseleniumextras.pageobjects.core\\4.3.0\\dotnetseleniumextras.pageobjects.core.4.3.0.nupkg.sha512",
     "C:\\Users\\Jahnavi_Tulasi\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\Jahnavi_Tulasi\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
     "C:\\Users\\Jahnavi_Tulasi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

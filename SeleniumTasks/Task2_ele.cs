@@ -1,24 +1,22 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
+using SeleniumTasks.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+
 using static System.Net.Mime.MediaTypeNames;
+
 
 namespace SeleniumTasks
 {
-    internal class Elements
+    internal class Elements : Driverinit
     {
-        IWebDriver driver;
-        [SetUp]
-        public void SetUp()
-        {
-            driver = new ChromeDriver();    
-        }
+        
         [Test]
         public void TextBox()
         {
@@ -46,6 +44,7 @@ namespace SeleniumTasks
         public void RadioButton()
         {
             driver.Navigate().GoToUrl("https://demoqa.com/radio-button");
+
             IWebElement yes_button = driver.FindElement(By.XPath("//input[@id='yesRadio']"));
             //WebDriverWait w = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
             // w.Until(ExpectedConditions.ElementIsVisible(By.XPath("//input[@id='yesRadio']")));
@@ -71,10 +70,6 @@ namespace SeleniumTasks
            // ClickMe.Click();
 
         }
-        [TearDown]
-        public void Close()
-        {
-            driver.Close(); 
-        }
+        
     }
 }

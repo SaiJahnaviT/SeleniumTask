@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
+using SeleniumTasks.Driver;
 
 namespace SeleniumTasks
 {
-    internal class AlertsandWindows
+    internal class AlertsandWindows : Driverinit
     {
-        IWebDriver driver = new ChromeDriver();
         [Test]
         #region Alerts
         public void Alerts()
@@ -89,14 +89,5 @@ namespace SeleniumTasks
             
         }
         #endregion
-
-
-
-
-        [TearDown]
-        public void Close()
-        {
-            driver.Close();
-        }
     }
 }

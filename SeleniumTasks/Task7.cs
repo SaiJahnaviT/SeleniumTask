@@ -9,18 +9,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SeleniumExtras.WaitHelpers;
+using SeleniumTasks.Driver;
 
 namespace SeleniumTasks
 {
-    internal class Task7
+    internal class Task7 : Driverinit 
     {
-        IWebDriver driver =new ChromeDriver();
+        
 
         [Test]
         public void Epam()
         {
-            driver.Navigate().GoToUrl("https://www.epam.com/");
-            Thread.Sleep(3000);
+
+
+            driver.Navigate().GoToUrl("https://www.epam.com");
             WebDriverWait w= new WebDriverWait(driver, TimeSpan.FromSeconds(5));
             w.Until(ExpectedConditions.TitleContains("EPAM"));
             driver.FindElement(By.XPath("//button[@class='header-search__button header__icon']")).Click();
@@ -41,10 +43,6 @@ namespace SeleniumTasks
 
 
         }
-        [TearDown]
-        public void Close()
-        {
-            driver.Close();
-        }
+        
     }
 }

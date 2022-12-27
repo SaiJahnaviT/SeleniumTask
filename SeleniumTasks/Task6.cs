@@ -5,22 +5,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SeleniumTasks.Driver;
 
 namespace SeleniumTasks
 {
-    internal class Task6
+    internal class Task6 : Driverinit
     {
-        IWebDriver driver = new ChromeDriver();
-        [SetUp]
-        public void Setup()
-        {
-            driver.Navigate().GoToUrl("https://www.saucedemo.com");
-            driver.Manage().Window.Maximize();
-        }
+       
 
         [Test]
-        public void swagLabsLogin()
+        public void saucedemo()
         {
+            driver.Navigate().GoToUrl("https://www.saucedemo.com/");
             driver.FindElement(By.Id("user-name")).SendKeys("standard_user");
             driver.FindElement(By.Id("password")).SendKeys("secret_sauce");
             driver.FindElement(By.Id("login-button")).Click();
@@ -40,7 +36,7 @@ namespace SeleniumTasks
             driver.FindElement(By.XPath("(//a[@id='item_5_title_link'])/parent::div/following::div/button")).Click();
 
             driver.FindElement(By.XPath("//a[@class='shopping_cart_link']")).Click();
-
+            Thread.Sleep(3000);
             cart_products[driver.FindElement(By.XPath("//a[@id='item_4_title_link']/div")).Text] = driver.FindElement(By.XPath("(//a[@id='item_4_title_link'])/following-sibling::div[2]/div")).Text;
             cart_products[driver.FindElement(By.XPath("//a[@id='item_5_title_link']/div")).Text] = driver.FindElement(By.XPath("(//a[@id='item_5_title_link'])/following-sibling::div[2]/div")).Text;
 
@@ -65,17 +61,10 @@ namespace SeleniumTasks
             string subtotal = driver.FindElement(By.XPath("//div[@class='summary_info']/div[5]")).Text;
             double dsubtotal= double.Parse(subtotal.Remove(0,13));
             Assert.IsTrue(total== dsubtotal);
+            Console.WriteLine(total);
             driver.FindElement(By.Id("finish")).Click() ;
             Assert.True(driver.FindElement(By.XPath("//span[contains(text(),'Checkout: Complete!')]")).Displayed);
 
-        }
-
-
-
-
-        [TearDown] public void tearDown() 
-        { 
-            driver.Close();
         }
     }
 }

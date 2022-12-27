@@ -7,17 +7,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SeleniumTasks.Driver;
+
 
 namespace SeleniumTasks
 {
-    internal class Task4
+    internal class Task4 : Driverinit
     {
-        IWebDriver driver = new ChromeDriver();
+        
         [Test]
         public void password()
         {
 
-            driver.Navigate().GoToUrl("https://www.amazon.in/");
+            driver.Navigate().GoToUrl("https://www.amazon.in");
             driver.Manage().Window.Maximize();
             Console.WriteLine(driver.Title);
             driver.FindElement(By.XPath("//*[@id=\"nav-signin-tooltip\"]/a/span")).Click();
