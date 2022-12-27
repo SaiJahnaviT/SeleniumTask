@@ -28,13 +28,13 @@ namespace SeleniumTasks
             driver.FindElement(By.XPath("//input[@id='userEmail']")).SendKeys("jahnavi_tulasi@gmail.com");
             ((IJavaScriptExecutor)driver).ExecuteScript("window.scrollTo(0, document.body.scrollHeight - 150)");
             driver.FindElement(By.XPath("//label[contains(text(),'Female')]")).Click();
-            driver.FindElement(By.XPath("//input[@id='userNumber']")).SendKeys("8885201765");
+            driver.FindElement(By.XPath("//input[@id='userNumber']")).SendKeys("999520100065");
             driver.FindElement(By.Id("dateOfBirthInput")).Click();
             SelectElement sy = new SelectElement(driver.FindElement(By.XPath("//select[@class='react-datepicker__year-select']")));
-            sy.SelectByText("2001");
+            sy.SelectByText("2005");
             SelectElement sm = new SelectElement(driver.FindElement(By.XPath("//select[@class='react-datepicker__month-select']")));
-            sm.SelectByText("July");
-            driver.FindElement(By.XPath("//div[contains(text(),'29')]")).Click();
+            sm.SelectByText("June");
+            driver.FindElement(By.XPath("//div[contains(text(),'25')]")).Click();
             IWebElement s= driver.FindElement(By.XPath("//input[@id='subjectsInput']"));
             s.SendKeys("maths");
             Actions a = new Actions(driver);
