@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\RestApiAutomationBL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\RestApiAutomationBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\RestApiAutomationBL.csproj",
+        "projectName": "RestApiAutomationBL",
+        "projectPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\RestApiAutomationBL.csproj",
+        "packagesPath": "C:\\Users\\Jahnavi_Tulasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jahnavi_Tulasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj": {
+                "projectPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj",
+        "projectName": "RestApiAutomationFramework",
+        "projectPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj",
+        "packagesPath": "C:\\Users\\Jahnavi_Tulasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jahnavi_Tulasi\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jahnavi_Tulasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

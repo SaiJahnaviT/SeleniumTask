@@ -1,0 +1,12 @@
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\bin\Debug\net6.0\RestApiAutomationTest.deps.json
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\bin\Debug\net6.0\RestApiAutomationTest.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\bin\Debug\net6.0\RestApiAutomationTest.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\RestApiAutomationTest.csproj.AssemblyReference.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\RestApiAutomationTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\RestApiAutomationTest.AssemblyInfoInputs.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\RestApiAutomationTest.AssemblyInfo.cs
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\RestApiAutomationTest.csproj.CoreCompileInputs.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\RestApiAutomationTest.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\refint\RestApiAutomationTest.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\RestApiAutomationTest.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationTest\obj\Debug\net6.0\ref\RestApiAutomationTest.dll

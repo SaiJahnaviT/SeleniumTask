@@ -1,0 +1,12 @@
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\bin\Debug\net6.0\RestApiAutomationFramework.deps.json
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\bin\Debug\net6.0\RestApiAutomationFramework.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\bin\Debug\net6.0\RestApiAutomationFramework.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\RestApiAutomationFramework.csproj.AssemblyReference.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\RestApiAutomationFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\RestApiAutomationFramework.AssemblyInfoInputs.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\RestApiAutomationFramework.AssemblyInfo.cs
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\RestApiAutomationFramework.csproj.CoreCompileInputs.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\RestApiAutomationFramework.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\refint\RestApiAutomationFramework.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\RestApiAutomationFramework.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationFramework\obj\Debug\net6.0\ref\RestApiAutomationFramework.dll

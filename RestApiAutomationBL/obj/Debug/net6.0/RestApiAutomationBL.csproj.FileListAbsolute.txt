@@ -1,0 +1,15 @@
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\bin\Debug\net6.0\RestApiAutomationBL.deps.json
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\bin\Debug\net6.0\RestApiAutomationBL.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\bin\Debug\net6.0\RestApiAutomationBL.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\bin\Debug\net6.0\RestApiAutomationFramework.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\bin\Debug\net6.0\RestApiAutomationFramework.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\RestApiAutomationBL.csproj.AssemblyReference.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\RestApiAutomationBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\RestApiAutomationBL.AssemblyInfoInputs.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\RestApiAutomationBL.AssemblyInfo.cs
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\RestApiAutomationBL.csproj.CoreCompileInputs.cache
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\RestApiAutomationBL.csproj.CopyComplete
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\RestApiAutomationBL.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\refint\RestApiAutomationBL.dll
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\RestApiAutomationBL.pdb
+C:\Users\Jahnavi_Tulasi\source\repos\RestApiAutomationFramework\RestApiAutomationBL\obj\Debug\net6.0\ref\RestApiAutomationBL.dll
