@@ -23,16 +23,16 @@ namespace OrangeHRMClassLibrary.PageObjects.Admin
             wait.waitElementIsVisible(utility.GetDropDownByLabelName(DropDowns.UserRole));
             utility.ClickElement(utility.GetDropDownByLabelName(DropDowns.UserRole));
             wait.waitElementIsVisible(By.XPath(AutoSuggest));
-            utility.AutoSuggestElement(By.XPath(AutoSuggest), USerRole);
+            utility.AutoSuggestElement(AutoSuggest, USerRole);
 
             
             wait.waitElementIsVisible(By.XPath(DropDowns.EmployeeName));
-            utility.ClickElement(By.XPath(DropDowns.EmployeeName));
+            utility.ClickElement(DropDowns.EmployeeName);
             utility.Sendkeys(By.XPath(DropDowns.EmployeeName),Employeename);
-            utility.SelectOptionWithIndex(By.XPath(AutoSuggest));
+            utility.SelectOptionWithIndex(AutoSuggest);
 
             utility.ClickElement(utility.GetDropDownByLabelName(DropDowns.Status));
-            utility.AutoSuggestElement(By.XPath(AutoSuggest), status);
+            utility.AutoSuggestElement(AutoSuggest, status);
 
             utility.Sendkeys(utility.GetTextboxByLabelName(TextBox.UserName), Username);
 
@@ -51,7 +51,7 @@ namespace OrangeHRMClassLibrary.PageObjects.Admin
             IWebElement SaveButton= utility.FindElement(utility.GetButton(Buttons.Submit));
 
             wait.waitElementIsVisible(utility.GetButton(Buttons.Submit));
-            utility.utility.UntilLoad();
+            utility.UntilLoad();
             SaveButton.Click();
             try
             {

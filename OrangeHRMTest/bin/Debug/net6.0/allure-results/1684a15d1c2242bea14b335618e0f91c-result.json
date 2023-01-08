@@ -1,0 +1,145 @@
+{
+  "uuid": "1cf9a7c15095411c9bad82bb4433aec7",
+  "historyId": "Verify the Search Functionality",
+  "fullName": "Verify the Search Functionality",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPINHYDW09F9"
+    },
+    {
+      "name": "feature",
+      "value": "Admin Feature"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "Verify the Search Functionality",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Object reference not set to an instance of an object.",
+    "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at OrangeHRMTest.BaseTest.TearDown() in C:\\Users\\Jahnavi_Tulasi\\source\\repos\\OrangeHRMClassLibrary\\OrangeHRMTest\\BaseTest.cs:line 30\r\n   at OrangeHRMTest.Hooks.Hooks.AfterScenario() in C:\\Users\\Jahnavi_Tulasi\\source\\repos\\OrangeHRMClassLibrary\\OrangeHRMTest\\Hooks\\Hooks1.cs:line 79\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am in HomePage.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672643060714,
+      "stop": 1672643060718
+    },
+    {
+      "name": "When  I Click on 'Admin' slot in Catalog.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672643060720,
+      "stop": 1672643060720
+    },
+    {
+      "name": "Then  I Navigated to Admin's Page.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672643060720,
+      "stop": 1672643060720
+    },
+    {
+      "name": "When  I Take a Username from table",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672643060720,
+      "stop": 1672643060720
+    },
+    {
+      "name": "And  I Enter that Username in Searchbox",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672643060721,
+      "stop": 1672643060721
+    },
+    {
+      "name": "When  I Click on Search Button.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672643060721,
+      "stop": 1672643060721
+    },
+    {
+      "name": "Then  The records displayed.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672643060721,
+      "stop": 1672643060721
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672643060704,
+  "stop": 1672643060724
+}

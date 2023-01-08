@@ -1,0 +1,166 @@
+{
+  "uuid": "be711cf2ad8442ba9488123dc6898b38",
+  "historyId": "Verify the Functionality of Adding User528334509",
+  "fullName": "Verify the Functionality of Adding User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPINHYDW09F9"
+    },
+    {
+      "name": "feature",
+      "value": "Admin Feature"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "Verify the Functionality of Adding User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Exception has been thrown by the target of an invocation. -> no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class='oxd-button oxd-button--medium oxd-button--secondary']\"}\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.\r\n ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class='oxd-button oxd-button--medium oxd-button--secondary']\"}\n  (Session info: chrome=108.0.5359.125)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OrangeHRMCommonLibrary.Utility.utility.ClickElement(By path) in C:\\Users\\Jahnavi_Tulasi\\source\\repos\\OrangeHRMClassLibrary\\OrangeHRMCommonLibrary\\Utility\\utility.cs:line 51\r\n   at OrangeHRMClassLibrary.PageObjects.Admin.AdminPage.ClickAddButton() in C:\\Users\\Jahnavi_Tulasi\\source\\repos\\OrangeHRMClassLibrary\\OrangeHRMClassLibrary\\PageObjects\\Admin\\AdminPage.cs:line 63\r\n   at OrangeHRMClassLibrary.PageObjects.Admin.AdminPage..ctor() in C:\\Users\\Jahnavi_Tulasi\\source\\repos\\OrangeHRMClassLibrary\\OrangeHRMClassLibrary\\PageObjects\\Admin\\AdminPage.cs:line 20\r\n   at OrangeHRMTest.StepDefinitions.AdminStepDefinitions..ctor() in C:\\Users\\Jahnavi_Tulasi\\source\\repos\\OrangeHRMClassLibrary\\OrangeHRMTest\\StepDefinitions\\AdminStepDefinitions.cs:line 10\r\n   --- End of inner exception stack trace ---\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)\r\n   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)\r\n   at BoDi.ObjectContainer.CreateObject(Type type, ResolutionList resolutionPath, RegistrationKey keyToResolve)\r\n   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, String name)\r\n   at TechTalk.SpecFlow.Infrastructure.TestObjectResolver.ResolveBindingInstance(Type bindingType, IObjectContainer container)\r\n   at lambda_method99(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am in HomePage.",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051329277,
+      "stop": 1672051330479
+    },
+    {
+      "name": "When  I Click on 'Admin' slot in Catalog.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051330663,
+      "stop": 1672051330666
+    },
+    {
+      "name": "Then  I Navigated to Admin's Page.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051330671,
+      "stop": 1672051330671
+    },
+    {
+      "name": "When  I Click on Add Button.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051330671,
+      "stop": 1672051330671
+    },
+    {
+      "name": "Then  I Navigated to Add User Page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051330671,
+      "stop": 1672051330671
+    },
+    {
+      "name": "When  I User detail UserRole 'Admin',Employee Name 'a', Status 'Enabled',Username 'Jahnavi000', Password 'Adiii$123'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051330671,
+      "stop": 1672051330671
+    },
+    {
+      "name": "Then  I Click Save Button.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051330671,
+      "stop": 1672051330671
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "UserRole",
+      "value": "Admin"
+    },
+    {
+      "name": "EmployeeName",
+      "value": "a"
+    },
+    {
+      "name": "Status",
+      "value": "Enabled"
+    },
+    {
+      "name": "Username",
+      "value": "Jahnavi000"
+    },
+    {
+      "name": "Password",
+      "value": "Adiii$123"
+    }
+  ],
+  "start": 1672051329262,
+  "stop": 1672051330681
+}

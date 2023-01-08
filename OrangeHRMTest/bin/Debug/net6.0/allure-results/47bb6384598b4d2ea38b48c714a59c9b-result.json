@@ -1,0 +1,143 @@
+{
+  "uuid": "640d626cf1df4391af01febdfaf1d1a4",
+  "historyId": "Verify the Search Functionality",
+  "fullName": "Verify the Search Functionality",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPINHYDW09F9"
+    },
+    {
+      "name": "feature",
+      "value": "Admin Feature"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "Verify the Search Functionality",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am in HomePage.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673187280851,
+      "stop": 1673187282753
+    },
+    {
+      "name": "When  I Click on 'Admin' slot in Catalog.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673187282825,
+      "stop": 1673187284823
+    },
+    {
+      "name": "Then  I Navigated to Admin's Page.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673187284824,
+      "stop": 1673187285436
+    },
+    {
+      "name": "When  I Take a Username from table",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673187285436,
+      "stop": 1673187288098
+    },
+    {
+      "name": "And  I Enter that Username in Searchbox",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673187288099,
+      "stop": 1673187288310
+    },
+    {
+      "name": "When  I Click on Search Button.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673187288311,
+      "stop": 1673187288429
+    },
+    {
+      "name": "Then  The records displayed.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673187288430,
+      "stop": 1673187293546
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673187280807,
+  "stop": 1673187293555
+}

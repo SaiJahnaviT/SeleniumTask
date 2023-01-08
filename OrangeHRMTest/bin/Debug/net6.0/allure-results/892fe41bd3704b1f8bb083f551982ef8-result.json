@@ -1,0 +1,164 @@
+{
+  "uuid": "a28ac0fc8bca401d939b63febbcad55a",
+  "historyId": "Verify the Functionality of Adding User528334509",
+  "fullName": "Verify the Functionality of Adding User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPINHYDW09F9"
+    },
+    {
+      "name": "feature",
+      "value": "Admin Feature"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "Verify the Functionality of Adding User",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am in HomePage.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672209347487,
+      "stop": 1672209349309
+    },
+    {
+      "name": "When  I Click on 'Admin' slot in Catalog.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672209349345,
+      "stop": 1672209350698
+    },
+    {
+      "name": "Then  I Navigated to Admin's Page.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672209350699,
+      "stop": 1672209351276
+    },
+    {
+      "name": "When  I Click on Add Button.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672209351276,
+      "stop": 1672209351919
+    },
+    {
+      "name": "Then  I Navigated to Add User Page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672209351919,
+      "stop": 1672209351920
+    },
+    {
+      "name": "When  I User detail UserRole 'Admin',Employee Name 'a', Status 'Enabled',Username 'Jahnavi000', Password 'Adiii$123'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672209351921,
+      "stop": 1672209356212
+    },
+    {
+      "name": "Then  I Click Save Button.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672209356212,
+      "stop": 1672209366453
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "UserRole",
+      "value": "Admin"
+    },
+    {
+      "name": "EmployeeName",
+      "value": "a"
+    },
+    {
+      "name": "Status",
+      "value": "Enabled"
+    },
+    {
+      "name": "Username",
+      "value": "Jahnavi000"
+    },
+    {
+      "name": "Password",
+      "value": "Adiii$123"
+    }
+  ],
+  "start": 1672209347469,
+  "stop": 1672209366458
+}

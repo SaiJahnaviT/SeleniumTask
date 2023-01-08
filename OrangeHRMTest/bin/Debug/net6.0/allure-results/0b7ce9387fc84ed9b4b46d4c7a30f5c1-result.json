@@ -1,0 +1,113 @@
+{
+  "uuid": "e45ea53205dc4990b85d7ae30faf1edb",
+  "historyId": "Verify the Login Functionality with Valid User",
+  "fullName": "Verify the Login Functionality with Valid User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPINHYDW09F9"
+    },
+    {
+      "name": "feature",
+      "value": "Login Feature"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify the Login Functionality with Valid User",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am Started the OrangeHRM Application",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051817594,
+      "stop": 1672051820497
+    },
+    {
+      "name": "Then  Login Page Displayed.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051820497,
+      "stop": 1672051821052
+    },
+    {
+      "name": "When  I Enter Username 'Admin' and Password 'admin123'.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051821053,
+      "stop": 1672051821191
+    },
+    {
+      "name": "And  Click Login Button.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051821191,
+      "stop": 1672051821238
+    },
+    {
+      "name": "Then  I Logged in Successfully to the Application.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051821239,
+      "stop": 1672051823110
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672051817594,
+  "stop": 1672051823110
+}

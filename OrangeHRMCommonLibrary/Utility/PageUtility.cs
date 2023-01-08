@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace OrangeHRMCommonLibrary.Utility
 {
-    public class utility : BasePage
+    public class PageUtility : BasePage
     {
         public void NaviagateToUrl(string url)
         {
@@ -26,13 +26,12 @@ namespace OrangeHRMCommonLibrary.Utility
                 Console.WriteLine(e.Message);
                 //throw new Exception("Check Path");
             }
-
         }
 
         public IList<IWebElement> GetList(By path)
         {
-            IList<IWebElement> inventory_items = driver.FindElements(path);
-            return inventory_items;
+            IList<IWebElement> items = driver.FindElements(path);
+            return items;
         }
 
         public void ClearElement(By path)
@@ -45,6 +44,15 @@ namespace OrangeHRMCommonLibrary.Utility
             return driver.FindElement(path);
         }
 
+        public IWebElement FindElement(string xpath)
+        {
+            return driver.FindElement(By.XPath(xpath));
+        }
+
+        public void ClickElement(string xpath)
+        {
+            driver.FindElement(By.XPath(xpath)).Click();
+        }
         
         public void ClickElement(By path)
         {
@@ -89,6 +97,11 @@ namespace OrangeHRMCommonLibrary.Utility
             return By.XPath($"//button[@type='{value}']");
         }
 
+        public By GetTitleByName(string name)
+        {
+            return By.XPath($"//h6[text()='{name}']");
+        }
+
         public By GetInputByInputName(string name)
         {
             return By.XPath($"//input[@name='{name}']");
@@ -108,9 +121,9 @@ namespace OrangeHRMCommonLibrary.Utility
             return By.XPath($"//label[contains(text(),'{name}')]/parent::div/following-sibling::div/div/div/input");
         }
 
-        public void AutoSuggestElement(By element, string text)
+        public void AutoSuggestElement(string xpath, string text)
         {
-            IList<IWebElement> autoSuggest = driver.FindElements(element);
+            IList<IWebElement> autoSuggest = driver.FindElements(By.XPath(xpath));
             foreach (IWebElement autoSuggestElement in autoSuggest)
             {
                 if (autoSuggestElement.Text.Contains(text))
@@ -119,20 +132,13 @@ namespace OrangeHRMCommonLibrary.Utility
                     break;
                 }
             }
-
         }
 
-        public void SelectOptionWithIndex(By element)
-        {
-            
-            IList<IWebElement> webElements = driver.FindElements(element);
-            for (int autoSuggestions = 0; autoSuggestions < webElements.Count(); autoSuggestions++)
-            {
-                IWebElement webElement = webElements[autoSuggestions];
-                Thread.Sleep(3000);
-                webElement.Click();
-                break;
-            }
+        public void SelectOptionWithIndex(string xpath)
+        { 
+            IWebElement webElements = FindElement(xpath);
+            Thread.Sleep(3000);
+            webElements.Click();
         }
 
         public string GetFirstInputFromTable(string Table)

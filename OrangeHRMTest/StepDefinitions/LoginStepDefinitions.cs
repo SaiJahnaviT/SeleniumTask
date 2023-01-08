@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using OrangeHRMClassLibrary.PageObjects.Login;
+using System.Configuration;
 
 namespace OrangeHRMTest.StepDefinitions
 {
@@ -11,7 +12,7 @@ namespace OrangeHRMTest.StepDefinitions
         [Given(@"I am Started the OrangeHRM Application")]
         public void GivenIAmStartedTheOrangeHRMApplication()
         {
-            loginPage.StartApplication();
+            loginPage.StartApplication(ConfigurationManager.AppSettings["OrangeUrl"]);
         }
 
         [Then(@"Login Page Displayed\.")]

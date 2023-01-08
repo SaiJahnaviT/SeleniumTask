@@ -24,20 +24,20 @@ namespace OrangeHRMClassLibrary.PageObjects.Leave
         public bool IsNavigatedToLeave()
         {
             wait.waitElementIsVisible(By.TagName("h5"));
-            return utility.utility.IsDisplayed(By.TagName("h5"));
+            return utility.IsDisplayed(By.TagName("h5"));
         }
 
         public void GetDates()
         {
-            wait.waitElementIsVisible(utility.utility.GetDatesByLabelName("From"));
+            wait.waitElementIsVisible(utility.GetDatesByLabelName("From"));
 
-            utility.utility.UntilLoad();
+            utility.UntilLoad();
 
             utility.JavaScriptScroll(utility.GetInputByDivClass(Table.EntryTable));
 
-            String Date = utility.utility.GetFirstInputFromTable(Table.EntryTable);
+            String Date = utility.GetFirstInputFromTable(Table.EntryTable);
 
-            string[] Dates = utility.utility.GetDates(Date);
+            string[] Dates = utility.GetDates(Date);
 
             if (Dates.Length > 1)
             {
@@ -58,11 +58,11 @@ namespace OrangeHRMClassLibrary.PageObjects.Leave
         {
             Actions actions = new Actions(driver);
 
-            IWebElement Fromdate = utility.FindElement((utility.utility.GetDatesByLabelName("From")));
+            IWebElement Fromdate = utility.FindElement((utility.GetDatesByLabelName("From")));
            
             actions.Click(Fromdate).KeyDown(Keys.Control).SendKeys("a").KeyUp(Keys.Control).SendKeys(Keys.Backspace).Build().Perform();
 
-            utility.utility.Sendkeys(utility.utility.GetDatesByLabelName("From"),FromDate);
+            utility.Sendkeys(utility.GetDatesByLabelName("From"),FromDate);
 
             wait.waitElementIsVisible(utility.GetButton(Buttons.Submit));
 

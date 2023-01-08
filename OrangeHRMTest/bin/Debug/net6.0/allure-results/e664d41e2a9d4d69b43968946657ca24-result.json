@@ -1,0 +1,98 @@
+{
+  "uuid": "1e614382727d4429a32f8804e413a98d",
+  "historyId": "Verify the Functionality To TimeSheet Displayed.",
+  "fullName": "Verify the Functionality To TimeSheet Displayed.",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPINHYDW09F9"
+    },
+    {
+      "name": "feature",
+      "value": "Time Feature"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "Verify the Functionality To TimeSheet Displayed.",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am in HomePage.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051883500,
+      "stop": 1672051885237
+    },
+    {
+      "name": "When  I Click on 'Time' slot in Catalog.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051885237,
+      "stop": 1672051886374
+    },
+    {
+      "name": "Then  I Navigated to Time Page.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051886374,
+      "stop": 1672051886922
+    },
+    {
+      "name": "And  Time Sheet Table of Employees is Displayed.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051886922,
+      "stop": 1672051887486
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672051883500,
+  "stop": 1672051887486
+}

@@ -194,4 +194,5 @@ C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMTest\bin\Deb
 C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMTest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMTest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMTest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMTest\bin\Debug\net6.0\OrangeHRMClassLibrary.dll.config
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMTest\bin\Debug\net6.0\specflow.json
+C:\Users\Jahnavi_Tulasi\source\repos\OrangeHRMClassLibrary\OrangeHRMTest\bin\Debug\net6.0\OrangeHRMTest.dll.config

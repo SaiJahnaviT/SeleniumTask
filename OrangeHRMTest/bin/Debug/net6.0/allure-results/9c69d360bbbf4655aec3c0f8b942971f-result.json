@@ -1,0 +1,171 @@
+{
+  "uuid": "741b453e9b7443218d97f6c4eb971e6e",
+  "historyId": "Verify the Functionality Add Candidate59042018",
+  "fullName": "Verify the Functionality Add Candidate",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPINHYDW09F9"
+    },
+    {
+      "name": "feature",
+      "value": "Recruitment Feature"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "Verify the Functionality Add Candidate",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am in HomePage.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051846176,
+      "stop": 1672051847850
+    },
+    {
+      "name": "When  I Click on 'Recruitment' slot in Catalog.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051847850,
+      "stop": 1672051849125
+    },
+    {
+      "name": "Then  I Navigated to Recruitment Page.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051849125,
+      "stop": 1672051849701
+    },
+    {
+      "name": "When  I Click on Add button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051849701,
+      "stop": 1672051850508
+    },
+    {
+      "name": "Then  I Navigated to Add Candidate Page.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051850508,
+      "stop": 1672051850524
+    },
+    {
+      "name": "When  I Enter Details Firstname 'Monica',Lastname 'Geller',EmailID 'monicag@gmail.com'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051850524,
+      "stop": 1672051851387
+    },
+    {
+      "name": "And  Click on Save button.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051851387,
+      "stop": 1672051851465
+    },
+    {
+      "name": "Then  Application is Saved and viewed.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051851465,
+      "stop": 1672051851526
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "firstname",
+      "value": "Monica"
+    },
+    {
+      "name": "lastname",
+      "value": "Geller"
+    },
+    {
+      "name": "emailID",
+      "value": "monicag@gmail.com"
+    }
+  ],
+  "start": 1672051846176,
+  "stop": 1672051851527
+}

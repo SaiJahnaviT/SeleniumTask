@@ -16,10 +16,10 @@ namespace OrangeHRMClassLibrary.PageObjects.Login
     public class LoginPage : BasePage
     {
 
-        public void StartApplication()
+        public void StartApplication(string url)
         {
 
-            utility.NaviagateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+            utility.NaviagateToUrl(url);
         }
 
         public bool IsLoginPageDisplayed()

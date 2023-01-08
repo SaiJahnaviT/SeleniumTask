@@ -1,0 +1,143 @@
+{
+  "uuid": "dba33858bbd5488bb703fd121f7f89fa",
+  "historyId": "Verify the Search Functionality in Leave Page.",
+  "fullName": "Verify the Search Functionality in Leave Page.",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPINHYDW09F9"
+    },
+    {
+      "name": "feature",
+      "value": "Leave Feature"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "Verify the Search Functionality in Leave Page.",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am in HomePage.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051799551,
+      "stop": 1672051801381
+    },
+    {
+      "name": "When  I Click on 'Leave' slot in Catalog.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051801381,
+      "stop": 1672051802537
+    },
+    {
+      "name": "Then  I Navigated to Leave Page.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051802537,
+      "stop": 1672051803116
+    },
+    {
+      "name": "When  I Take a Dates from Record Table.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051803116,
+      "stop": 1672051810245
+    },
+    {
+      "name": "And  I Enter that Dates in Searchbox.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051810245,
+      "stop": 1672051810868
+    },
+    {
+      "name": "When  I Click on Search Button.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051810868,
+      "stop": 1672051811000
+    },
+    {
+      "name": "Then  The Similar records displayed.",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1672051811001,
+      "stop": 1672051816092
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672051799551,
+  "stop": 1672051816093
+}

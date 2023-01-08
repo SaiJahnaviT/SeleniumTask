@@ -1,8 +1,8 @@
 ﻿using AventStack.ExtentReports.Reporter;
 using AventStack.ExtentReports;
 using OpenQA.Selenium;
-using TechTalk.SpecFlow;
 using OrangeHRMClassLibrary.PageObjects.Login;
+using System.Configuration;
 
 namespace OrangeHRMTest.Hooks
 {
@@ -43,7 +43,7 @@ namespace OrangeHRMTest.Hooks
         {
 
             LoginPage loginPage =new LoginPage();
-            loginPage.StartApplication();
+            loginPage.StartApplication(ConfigurationManager.AppSettings["OrangeUrl"]);
             loginPage.IsLoginPageDisplayed();
             loginPage.EnterUserCredentials("Admin","admin123");
             loginPage.ClickLoginButton();
@@ -61,6 +61,7 @@ namespace OrangeHRMTest.Hooks
         [AfterStep]
         public void AfterStep(ScenarioContext scenarioContext)
         {
+            
             if (scenarioContext.TestError == null)
             {
                 step.Log(Status.Pass, scenarioContext.StepContext.StepInfo.Text);
